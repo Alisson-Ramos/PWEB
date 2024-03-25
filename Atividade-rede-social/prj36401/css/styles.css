@@ -1,0 +1,144 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,800&display=swap');
+
+:root {
+    --cor-primaria: #000;
+    --cor-secundaria: #2c2828;
+    --txt-titulo: 18px;
+    --txt-subtitulo: 16px;
+    --txt-texto: 14px;
+    --cor-terciaria: #EF048F;
+}
+
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    font-size: var(--txt-texto);
+    color: #fff;
+}
+
+.cornao {
+    background-color: #b1afaf;
+}
+
+h2 {
+    font-size: var(--txt-titulo);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: var(--txt-subtitulo);
+    color: #b1afaf;
+}
+
+body {
+    margin: 0px;
+    background-color: #393943;
+}
+
+header {
+    height: 50px;
+    background-color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    margin: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#perfilMenu {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    flex-flow: column;
+}
+
+section {
+    width: 50%;
+    height: 100%;
+}
+
+.centerMenu {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 0px 36px 0px 36px;
+}
+
+#sideMenu {
+    width: 25%;
+    height: 100%;
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+}
+
+.usrImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: SOLID 3PX var(--cor-terciaria);
+}
+
+.dadosTweet {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.centerMenu .icons {
+    text-align: center;
+}
+
+.amigos {
+    display: flex;
+    flex-flow: row;
+    margin: 10px;
+    align-items: center;
+}
+
+.amigoImage {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 0px 0px;
+    border: SOLID 1PX var(--cor-terciaria);
+}
+
+.tweetImage {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 0px;
+}
+
+#ico {
+    width: 100px;
+}
+
+#perfilMenu h3, h2 {
+    margin: 2px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 0px 30px 0px 30px;
+}
+
+#usrMenu {
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px var(--cor-terciaria);
+}
+
+table {
+    width: 100%;
+    border: solid 1px var(--cor-terciaria);
+}
+
+.corsim {
+    background-color: #393943;
+}
+
